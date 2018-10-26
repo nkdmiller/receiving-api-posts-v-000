@@ -6746,3 +6746,35 @@ Started GET "/posts/new" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
 Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by PostsController#new as HTML
   Rendered posts/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 430ms (Views: 416.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 68.56.80.185 at 2018-10-26 07:04:09 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/posts" for 68.56.80.185 at 2018-10-26 07:04:17 +0000
+Cannot render console from 68.56.80.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#create as */*
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fab2/6JrWe5V5httxvO4Rdtli+hrOTxcPmom4qf2F9aYyFWFYP7Evk3yfxnAllaFe3aDd43Ncphp/7NYU9d3+g==", "post"=>{"title"=>"fdgdfgdf", "description"=>"fdgdfgdf"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "fdgdfgdf"], ["description", "fdgdfgdf"], ["created_at", "2018-10-26 07:04:17.771554"], ["updated_at", "2018-10-26 07:04:17.771554"]]
+  [1m[35m (8.5ms)[0m  commit transaction
+[active_model_serializers] Rendered PostSerializer with ActiveModelSerializers::Adapter::Attributes (0.29ms)
+Completed 201 Created in 44ms (Views: 31.9ms | ActiveRecord: 8.9ms)
